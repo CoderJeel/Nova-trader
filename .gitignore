@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+build/
+dist/
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Secrets — never commit broker credentials
+.env
+*.token
+
+# Local data and outputs
+data/
+output/
+*.log
+
+# Editors / OS
+.idea/
+.vscode/
+.DS_Store
